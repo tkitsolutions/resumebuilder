@@ -1,0 +1,84 @@
+.resumeBuilder-Container{
+    font-family: Poppins;
+    /* border: 5px orange dashed; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.titleBar{
+
+    color: white;
+    background-color: rgb(15, 17, 23);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding:10px 0px
+}
+
+.resumebuilder-windows{
+    flex: 1;
+    display: flex;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.resumeBuilder-Components{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+
+.resume-page{
+
+    /* border: 5px red solid; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(205, 198, 199);
+    flex: 1;
+    overflow: hidden;
+
+}
+
+
+
+
+.navigationButton{
+    /* border: 1px solid red; */
+    margin: 20px;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigationButton button{
+    width: 100px;
+    height: 30px;
+ 
+  
+    border-radius: 5px;
+    letter-spacing: 2px;
+    
+}
+
+.btn-active{
+    color: white;
+    background-color: rgb(49, 93, 224);
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.btn-disable{
+    color: rgb(49, 93, 224);
+    background-color: white;
+    border: 1px solid rgb(49, 93, 224);
+    cursor: default;
+}
+

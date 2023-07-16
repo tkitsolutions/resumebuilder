@@ -1,0 +1,28 @@
+.DropDownHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-size: 24px; */
+    border-bottom: 1px solid rgb(202, 200, 200);
+    padding-bottom: 20px;
+    user-select: none;
+}
+
+.ddactive{
+    border-bottom: none;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.dropdownbtn{
+    font-size: 30px;
+    color: #6e6c70a3;
+}
+.dropdownbtn:hover{
+    cursor: pointer;
+    user-select: none;
+    color: #4314B6;
+  
+}

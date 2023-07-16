@@ -1,0 +1,21 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px 100px;
+}
+
+
+.profile-details{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid rgba(190, 185, 185, 0.617) ;
+    flex-wrap: wrap-reverse;
+}
+
+.profile_info{
+
+    flex: 1;
+    margin-right:50px ;
+}

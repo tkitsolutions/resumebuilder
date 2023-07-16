@@ -1,0 +1,47 @@
+.EducationInfo-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+   
+}
+
+
+.EducationInfo-Form{
+    
+     border-bottom: 1px solid rgba(190, 185, 185, 0.617) ;
+     padding-bottom: 30px ;
+}
+
+.education_university{
+    border: 1px solid rgba(190, 185, 185, 0.617) ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.education_university>button{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.EducationInfo-Form--buttons{
+ display: flex;
+ justify-content: flex-end;
+ margin-bottom: 20px;
+}
+
+.EducationInfo-Form--buttons>button{
+    margin-right: 10px;
+}
+
+.Education{
+    border: 1px solid rgba(190, 185, 185, 0.617) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

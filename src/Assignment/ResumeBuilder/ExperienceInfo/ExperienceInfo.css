@@ -1,0 +1,22 @@
+.ExperienceInfo-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+
+.ExperienceInfo-Form{
+    border-bottom: 1px solid rgba(190, 185, 185, 0.617) ;
+    padding-bottom: 30px ;  
+}
+
+.ExperienceInfo-Form>div{
+    border: 1px solid rgba(190, 185, 185, 0.617) ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+

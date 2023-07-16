@@ -1,0 +1,24 @@
+form{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+form button{
+    font-size: 30px;
+    color: white;
+    font-weight: 400px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    
+}

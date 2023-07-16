@@ -1,0 +1,35 @@
+.imageContainer{
+    border: 1px solid rgba(12, 12, 12, 0.353);
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imageContainer img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.imageContainer input{
+    display: none;
+}
+
+#ProfilePicBtn{
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    background-color:#4214b661;
+    color: white;
+    /* left: 30px; */
+    bottom: 0px;
+    cursor: pointer;
+    display: none;
+}
+
+.imageContainer:hover>#ProfilePicBtn{
+   display: block;
+   }
+

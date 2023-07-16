@@ -1,0 +1,34 @@
+.mainsection-container{
+    background-color:rgb(255, 255, 255);
+    width: 450px;
+    padding: 30px;
+    /* border: 5px rgb(105, 11, 82) solid; */
+}
+
+.experience-list{
+   border-left: 1px solid black;
+}
+.experience-section>p{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+.reference-section{
+        margin-bottom: 50px;
+}
+.references-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.reference-section>p{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    border-bottom: 1px solid black;
+}

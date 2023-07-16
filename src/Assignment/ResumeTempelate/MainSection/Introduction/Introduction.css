@@ -1,0 +1,26 @@
+.Intro-name{
+    font-family: Poppins;
+    font-weight: 700;
+    /* font-size: 40px; */
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Intro-name--last{
+    font-weight: 500;
+}
+.Intro-post{
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-weight:500;
+    /* font-size: 20px; */
+    letter-spacing: 2px;
+    
+}
+
+.Intro-description{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: justify;
+    word-wrap: break-word;
+}

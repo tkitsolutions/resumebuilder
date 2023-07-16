@@ -1,0 +1,9 @@
+.addedItem{
+    border: 1px solid rgba(190, 185, 185, 0.617) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

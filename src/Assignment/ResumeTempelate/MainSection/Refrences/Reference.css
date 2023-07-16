@@ -1,0 +1,22 @@
+.reference-name,.reference-phone,.reference-email{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0;
+    /* margin-top: 0; */
+}
+
+.reference-phone,.reference-email{
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.reference-company,.reference-phone span,.reference-email span{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(97, 92, 92);
+    margin-top: 0;
+}
